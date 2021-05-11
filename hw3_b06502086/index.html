@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SuperMonger黃柏維</title>
+    <link rel="icon" href="supermonger.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/tooplate-infinite-loop.css" />
+
+  </head>
+  <body onload="show()">   
+    <!-- Hero section -->
+    <section id="infinite" class="text-white tm-font-big tm-parallax">     
+      <div class="text-center tm-hero-text-container">
+        <div class="tm-hero-text-container-inner">
+            <h2 class="tm-hero-title">超猛哥-黃柏維</h2>
+            <IMG SRC="海灘酷.jpg" ALT="我的帥照" WIDTH=40%>
+        </div>
+      </div>
+    </section>
+
+    <section id="學經歷" class="tm-section-pad-top">
+      
+      <div class="container">
+            
+            <div class="row tm-content-box"><!-- first row -->
+                <div class="col-lg-12 col-xl-12">
+                  
+                    <div class="tm-intro-text-container">
+                        <h2 class="tm-text-primary mb-4 tm-section-title">學經歷</h2>
+                    </div>                 
+                </div>
+            </div><!-- first row -->
+                        
+            <div class="row tm-content-box"><!-- third row -->
+        		<div class="col-lg-1">
+                    <i class="fas fa-3x fa-fingerprint text-center tm-icon"></i>
+                </div>
+                <div class="col-lg-5">
+                    <div class="tm-intro-text-container">
+                        <h2 class="tm-text-primary mb-4"><A HREF="http://www.kshs.kh.edu.tw/index.php?WebID=269">高雄中學</A></h2>
+                          <A HREF="http://www.kshs.kh.edu.tw/index.php?WebID=269" TARGET=_blank>
+                          <IMG SRC="KSHS.jfif" height=50%>
+                          </A>
+                    </div>
+                </div>
+                
+                <div class="col-lg-1">
+                    <i class="fas fa-3x fa-users text-center tm-icon"></i>
+                </div>
+                <div class="col-lg-5">
+                  <div class="tm-intro-text-container">
+                      <h2 class="tm-text-primary mb-4"><A HREF="http://www.me.ntu.edu.tw/main.php">台灣大學機械工程學系</A></h2>
+                        <A HREF="http://www.me.ntu.edu.tw/main.php" TARGET=_blank>
+                        <IMG SRC="NTU.jpg" width=50%>
+                        </A>
+                  </div>
+              </div>
+            </div>
+
+        </div>
+      
+    </section>
+
+    <section id="興趣" class="tm-section-pad-top">
+      
+      <div class="container">
+            
+            <div class="row tm-content-box"><!-- first row -->
+                <div class="col-lg-12 col-xl-12">
+                  
+                    <div class="tm-intro-text-container">
+                        <h2 class="tm-text-primary mb-4 tm-section-title">興趣</h2>
+                    </div>                 
+                </div>
+            </div><!-- first row -->
+                        
+            <div class="row tm-content-box"><!-- third row -->
+        		    <div class="col-lg-1">
+                    <i class="fas fa-3x fa-fingerprint text-center tm-icon"></i>
+                </div>
+                <div class="col-lg-5">
+                    <div class="tm-intro-text-container">
+                        <h2 class="tm-text-primary mb-4"><A HREF="https://www.mlb.com/">Baseball</A></h2>
+                          <A HREF="https://www.mlb.com/" TARGET=_blank>
+                          <IMG SRC="baseball.jpg" width=50%>
+                          </A>
+                    </div>
+                </div>
+                
+                <div class="col-lg-1">
+                    <i class="fas fa-3x fa-users text-center tm-icon"></i>
+                </div>
+                <div class="col-lg-5">
+                  <div class="tm-intro-text-container">
+                      <h2 class="tm-text-primary mb-4"><A HREF="http://www.newcbparty.com/price_02a.html">Sing</A></h2>
+                        <A HREF="http://www.newcbparty.com/price_02a.html" TARGET=_blank>
+                        <IMG SRC="sing.jfif" width=50%>
+                        </A>
+                  </div>
+                </div>
+
+                <div class="col-lg-1">
+                  <i class="fas fa-3x fa-users text-center tm-icon"></i>
+                </div>
+                <div class="col-lg-5">
+                  <div class="tm-intro-text-container">
+                    <h2 class="tm-text-primary mb-4"><A HREF="https://www.youtube.com/channel/UCzgxx_DM2Dcb9Y1spb9mUJA">Beauty</A></h2>
+                      <A HREF="https://www.youtube.com/channel/UCzgxx_DM2Dcb9Y1spb9mUJA" TARGET=_blank>
+                      <IMG SRC="tzuyu.jpg" width=50%>
+                      </A>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="nowDiv"></div>
+    <audio src="Canon.mp3" loop controls></audio>
+
+
+    <script src="js/jquery-1.9.1.min.js"></script>     
+    <script src="slick/slick.min.js"></script>
+    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/easing.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>     
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      function show(){
+      var date = new Date(); //日期對象
+      var now = " ";
+      
+      now = now + (date.getMonth()+1)+"-"; //取月的時候取的是當前月-1如果想取當前月+1就可以了
+      now = now + date.getDate()+"-";
+      now = now + date.getFullYear();
+      
+      now = now + "  "; 
+  
+      now = now + date.getHours()+":";
+      now = now + date.getMinutes()+":";
+      now = now + date.getSeconds();
+      document.getElementById("nowDiv"). innerHTML = now; //div的html是now這個字符串
+      setTimeout("show()",1000); //設置過1000毫秒就是1秒，調用show方法
+      }
+    </script>
+  </body>
+</html>
